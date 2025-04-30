@@ -1,28 +1,75 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Justine Mach</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 50px;
-      }
-      h1 {
-        font-size: 2.5em;
-      }
-      a {
-        color: #007acc;
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Hi, I'm Justine Mach</h1>
-    <p>Student, builder, and lover of tech + literature.</p>
-    <p>Find me on <a href="https://linkedin.com/in/justinemach" target="_blank">LinkedIn</a> or <a href="mailto:justinemachpy@gmail.com">email me</a></p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justine Mach</title>
+  <meta name="description" content="Personal site for Justine Mach" />
+  <meta property="og:title" content="Justine Mach" />
+  <meta property="og:description" content="test site" />
+  <meta property="og:image" content="justine-card.png" />
+  <meta property="og:type" content="website" />
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      background-image: url('justine-card.png');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      backdrop-filter: brightness(50%);
+    }
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 3rem;
+      border-radius: 12px;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .icons a {
+      margin: 0 0.5rem;
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+
+    .icons a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <h1>Justine Mach</h1>
+    <p>Hello and welcome to my journey to document life on my own creative merit. Still figuring out how I want to document all of my endeavors in one place... a great problem to have but I want to tackle it with intention.</p>
+    <p>Yap aside, I look forward to building this site into the time capsule that can capture the chaotic thoughts of my mind. For now, feel free to check out my messy sources of information about Justine Mach below.</p>
+
+    <div class="icons">
+      <a href="https://www.instagram.com/machpuiying">Instagram 1</a>
+      <a href="https://www.instagram.com/justinemach/">Instagram 2</a>
+      <a href="https://www.linkedin.com/in/justinemach/">LinkedIn</a>
+      <a href="https://www.youtube.com/@justinemach8997">YouTube</a>
+    </div>
+  </div>
+</body>
 </html>
